@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Welcome to postIt! Please Log In</title>
-	<link rel="stylesheet" href="res/css/loginCSS.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<title>Welcome to postIt! Please Log In</title>
+<link rel="stylesheet" href="res/css/style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">   
 </head>
 <body>
-	<div class="login-container">
-		<img src="res/images/logo.jpg" alt="postIt">
+	<div class="container">
+		<img src="res/images/logo.jpg" alt="postIt" height= "75" width="75">
 		<h1>Welcome to postIt!</h1>
-		<h2>Create an Account</h2>
+		<h3><a href="#">Create an Account</a></h3>
 		<h2>Or</h2>
-		<h1>Please Log In</h1>
-		<input type="text" name="email" placeholder="Email">
-		<input type="text" name="password" placeholder="Password">
-		<button onclick="location.href='index.html'" type="button">Log In</button>
-		<h2>Forgot password?</h2>
-	</div>
+		<h2>Please Log In</h1>
+        <input type="text" name="email" placeholder="Email" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <button onclick="location.href='index.html'" type="submit">Log In</button>
+        <h4><a href="#">Forgot password?</a></h3>     
+    </div>
 </body>
 </html>
