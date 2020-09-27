@@ -9,7 +9,7 @@ img {
 
    
  input[type=text] {   
-        width: 200px;
+        width: 197px;
         height: 10px;
         font-size: 12px;
         position: absolute; 
@@ -17,11 +17,12 @@ img {
         padding: 10px;  
         margin-left: -100px;
         display: inline-block;   
-        border: 10px black;   
+        border-color: 10px black;   
     }
 
  input[type=password] {   
-        width: 200px;
+        
+        width: 196px;
         height: 10px;
         font-size: 12px;
         position: absolute; 
@@ -29,7 +30,7 @@ img {
         margin-left: -100px;
         padding: 10px; 
         display: inline-block;   
-        border: 10px black;   
+        border-color: 10px black;   
     }   
     
 button {   
@@ -52,5 +53,5 @@ h4 {
         position:absolute;
         margin: 10% 0px 0px 35%;
         text-align:center;
-        background-color: whitesmoke;  
+        background-color: white;  
     }   
