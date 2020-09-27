@@ -1,5 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<style>
+	
+	.posts {
+		display: flex;
+		flex-direction:  column;
+		background-color: rgb(240,240,240);
+		width: 70%;
+		border: 3px solid gray;
+		margin:auto;
+	}
+
+	.post {
+		background-color: rgb(250,250,250);
+		border: 1px dotted gray;
+		padding:  25px;
+		}
+
+	#special_button {
+		width: 50px;
+		}
+
+	ul {
+		list-style: none;
+		}
+
+	h1 + img {
+		width: 100px;
+		}
+
+	img ~ p {
+		font-family: arial;
+		}
+
+	ul > li {
+		padding:10px;
+		margin:; 10px;
+		}
+
+	#another_special_thingi {
+		width: 200px;
+		}
+
+	.pic {
+		width: 100%
+		}
+
+
+</style>
+
 <head>
 	<meta charset="UTF-8">
 	<title>postIt</title>
@@ -8,42 +58,42 @@
 </head>
 <body>
 	<header>
-		<nav>
+		<nav style="display: inline-flex">
 			<div>
-            	<img src="res/images/logo.jpg" alt="postIt">
+            	<img src="res/images/logo.jpg" alt="postIt" id="another_special_thingi">
         	</div>
         	<div class="search-container">
             	<input type="text"><button>Search</button>
         	</div>
         	<div>
-        		<img src="res/images/me.png" alt="Open profile">
+        		<img src="res/images/me.png" alt="Open profile" id="another_special_thingi">
         	</div>
 		</nav>
 	</header>
 	<div class="post-container">
-		<ul>
+		<ul class = "posts">
 			<li>
-				<div>
-					<img src="res/images/me.png" alt="Open profile">
+				<div class="post">
+					<img src="res/images/me.png" alt="Open profile" id="special_button">
 					<p>Sep 18, 2020 15:16</p>
-					<img src="res/images/HalfLife2.jpg" alt="Half Life 2">
+					<img src="res/images/HalfLife2.jpg" alt="Half Life 2" class="pic">
 					<h1>I think it's going to rain</h1>
 					<img src="res/images/like.png" alt="Like this post">
 				</div>
 			</li>
 			<li>
-				<div>
-					<img src="res/images/me.png" alt="Open profile">
+				<div class="post">
+					<img src="res/images/me.png" alt="Open profile" id="special_button">
 					<p>Sep 18, 2020 15:16</p>
 					<h1>Which weighs more, a pound of feathers or a pound of bricks?</h1>
 					<img src="res/images/like.png" alt="Like this post">
 				</div>
 			</li>
 			<li>
-				<div>
-					<img src="res/images/me.png" alt="Open profile">
+				<div class="post">
+					<img src="res/images/me.png" alt="Open profile" id="special_button">
 					<p>Sep 18, 2020 17:18</p>
-					<img src="res/images/batman.jpg" alt="Batman">
+					<img src="res/images/batman.jpg" alt="Batman" class="pic">
 					<h1>Felt cute, might delete later</h1>
 					<img src="res/images/like.png" alt="Like this post">
 				</div>
@@ -52,3 +102,6 @@
 	</div>
 </body>
 </html>
+
+
+
